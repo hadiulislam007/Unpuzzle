@@ -17,6 +17,7 @@ function PuzzlesByTrainer() {
             width: 1265,
             arrows: true,
             type: "loop",
+            perMove: 1,
           }}
         >
           <SplideSlide>

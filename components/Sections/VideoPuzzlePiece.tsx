@@ -4,7 +4,7 @@ import PuzzlePiece from "./PuzzlePiece";
 function VideoPuzzlePiece() {
   return (
     <div className="mb-36">
-      <div className="flex justify-center items-center text-left font-patuaOne text-[40px] gap-x-2 text-black-80">
+      <div className="flex justify-center items-center text-left font-patuaOne text-[40px] gap-x-2 text-black-80 mb-4">
         <span>Other people’s learning journey of this </span>
         <Image
           className="px-4"

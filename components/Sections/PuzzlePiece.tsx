@@ -7,23 +7,29 @@ function PuzzlePiece() {
         Mahtab Alam
       </span>
       <div className="w-3/12 grid grid-cols-5 gap-2 pr-4 pl-2  text-black-60 font-normal text-xs">
-        <div className=" w-full items-centerborder-[0.5px] border-black-30 px-1 rounded-lg">
-          <Image src="/pdf.svg" width={13} height={16} alt="icon" /> 10
+        <div className="flex w-full justify-center gap-1 items-center border-[0.5px] border-black-30 px-1 rounded-lg">
+          <Image src="/pdf.svg" width={13} height={16} alt="icon" />
+          <span>10</span>
         </div>
-        <div className="flex w-full items-center border-[0.5px] border-black-30 px-1 rounded-lg">
-          <Image src="/microphone.svg" width={12} height={16} alt="icon" /> 10
+        <div className="flex w-full justify-center gap-1 items-center border-[0.5px] border-black-30 px-1 rounded-lg">
+          <Image src="/microphone.svg" width={12} height={16} alt="icon" />
+          <span>15</span>
         </div>
-        <div className="flex w-full items-center border-[0.5px] border-black-30 px-1 rounded-lg">
-          <Image src="/notes.svg" width={16} height={16} alt="icon" /> 10
+        <div className="flex w-full justify-center gap-1 items-center border-[0.5px] border-black-30 px-1 rounded-lg">
+          <Image src="/notes.svg" width={16} height={16} alt="icon" />
+          <span>07</span>
         </div>
-        <div className="flex w-full items-center border-[0.5px] border-black-30 px-1 rounded-lg">
-          <Image src="/docs.svg" width={12} height={16} alt="icon" /> 10
+        <div className="flex w-full justify-center gap-1 items-center border-[0.5px] border-black-30 px-1 rounded-lg">
+          <Image src="/docs.svg" width={12} height={16} alt="icon" />
+          <span>12</span>
         </div>
-        <div className="flex w-full items-center border-[0.5px] border-black-30 px-1 rounded-lg">
-          <Image src="/v-camera.svg" width={20} height={14} alt="icon" /> 10
+        <div className="flex w-full justify-center gap-1 items-center border-[0.5px] border-black-30 px-1 rounded-lg">
+          <Image src="/v-camera.svg" width={20} height={14} alt="icon" />
+          <span>11</span>
         </div>
-        <div className="flex w-ful items-center border-[0.5px] border-black-30 px-1 rounded-lg">
-          <Image src="/media.svg" width={17.5} height={14} alt="icon" /> 10
+        <div className="flex w-full justify-center gap-1 items-center border-[0.5px] border-black-30 px-1 rounded-lg">
+          <Image src="/media.svg" width={17.5} height={14} alt="icon" />
+          <span>13</span>
         </div>
       </div>
       <span className="w-2/12 pr-4 pl-2 font-bold text-black-80">$45</span>

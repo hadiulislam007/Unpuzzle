@@ -35,6 +35,7 @@ function PuzzlesComponent() {
             width: 290,
             arrows: true,
             type: "loop",
+            perMove: 1,
           }}
         >
           <SplideSlide>
